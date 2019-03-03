@@ -5,9 +5,9 @@ function happyHolidays() {
 
 var name = "you"
 
-var holiday = "holidays"
+var holiday = "Mother's Day"
 
-var days = 30
+var days = 20
 
 function happyHolidaysTo(name) {
   return console.log("Happy holidays, ${name}!")
