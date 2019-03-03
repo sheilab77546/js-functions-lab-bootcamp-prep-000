@@ -8,23 +8,23 @@ var holiday = "Mother's Day"
 var days = 20
 
 function happyHolidays() {
-  return ('Happy holidays!')
+  return ("Happy holidays!")
 }
 
 function happyHolidaysTo(name) {
-  return ("Happy holidays, ${name}!")
+  console.log("Happy holidays, ${name}!")
 }
 
 happyHolidaysTo("you");
 
 function happyHolidaysTo(holiday, name) {
-  return (`Happy ${holiday}, ${name}!`)
+  console.log(`Happy ${holiday}, ${name}!`)
 }
 
 happyHolidaysTo("Mother\'s Day", "you");
 
 function holidayCountdown(days, holiday) {
-  return ("It\'s ${days} until ${holiday}!")
+  console.log("It\'s ${days} until ${holiday}!")
 }
 
 holidayCountdown(20, "Mother\'s Day");
