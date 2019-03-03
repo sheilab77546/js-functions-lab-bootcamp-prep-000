@@ -5,10 +5,21 @@ function happyHolidays() {
 
 var name = "you"
 
-var holiday = ""
+var holiday = "holidays"
+
+var days = 30
 
 function happyHolidaysTo(name) {
   return console.log (`Happy holidays, ${name}!`)
 }
 
-happyHolidaysTo(sheila)
+function happyHolidaysTo(holiday, name) {
+  return console.log (`Happy ${holiday}, ${name}!`)
+}
+
+function holidayCountdown(days, holiday) {
+  return console.log (`It\'s ${days} until ${holiday})!`
+}
+
+}
+}
