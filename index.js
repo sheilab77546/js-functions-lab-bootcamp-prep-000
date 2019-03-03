@@ -15,14 +15,16 @@ function happyHolidaysTo(name) {
   return console.log("Happy holidays, ${name}!")
 }
 
-happyHolidaysTo(you)
+happyHolidaysTo("you");
 
 function happyHolidaysTo(holiday, name) {
   return console.log(`Happy ${holiday}, ${name}!`)
 }
 
-
+happyHolidaysTo("Mother\'s Day", "you");
 
 function holidayCountdown(days, holiday) {
   return console.log("It\'s ${days} until ${holiday}!")
 }
+
+holidayCountdown(20, )
