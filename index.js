@@ -27,4 +27,4 @@ function holidayCountdown(days, holiday) {
   return console.log("It\'s ${days} until ${holiday}!")
 }
 
-holidayCountdown(20, )
+holidayCountdown(20, "Mother\'s Day");
