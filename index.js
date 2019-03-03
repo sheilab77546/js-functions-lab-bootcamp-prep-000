@@ -5,8 +5,10 @@ function happyHolidays() {
 
 var name = "you"
 
+var holiday = ""
+
 function happyHolidaysTo(name) {
-  console.log (`Happy holidays, ${name}!`)
+  return console.log (`Happy holidays, ${name}!`)
 }
 
 happyHolidaysTo(sheila)
