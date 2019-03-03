@@ -5,7 +5,7 @@ function happyHolidays() {
 }
 
 function happyHolidaysTo(name) {
-  return "Happy holidays, ${name}!"
+  return `Happy holidays, ${name}!`
 }
 
 function happyHolidaysTo(holiday, name) {
@@ -13,10 +13,10 @@ function happyHolidaysTo(holiday, name) {
 }
 
 function holidayCountdown(days, holiday) {
-  return "It\'s ${days} days until ${holiday}!"
+  return `It\'s ${days} days until ${holiday}!`
 }
 
-happyHolidays()
-happyHolidaysTo("you")
-happyHolidaysTo("Mother\'s Day",)
-
+happyHolidays();
+happyHolidaysTo("you");
+happyHolidaysTo("Mother\'s Day", "you");
+holidayCountdown(20, "Mother\'s Day")
